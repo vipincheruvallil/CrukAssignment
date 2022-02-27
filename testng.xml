@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Validating Card Payments in CRUK">
+         <classes>
+             <class name="org.cruk.donation.Donation"/>
+             <class name="org.cruk.donation.BaseSetUp"/>
+       </classes>
+      </test>
+</suite>
