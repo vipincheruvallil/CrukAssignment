@@ -27,7 +27,7 @@ https://www.selenium.dev/downloads/
 Download the binary zip archive Link and if using a Windows machine make sure to set the 
 environmental variables as MAVEN_HOME to the path where maven is downloaded.
 
-If using a Macbook make sure to add the following to .bash_profile/.zshrc file to be
+If using a Macbook make sure to add the following to .bash_profile/.zshrc file present in home repository
 
 ```
 export M2_HOME=/<FolderLocation>/apache-maven-<version>
@@ -37,7 +37,7 @@ export PATH=$M2:$PATH
 
 ## Steps to run the test
 
-The pom.xml will load all the dependencies that is required to run this project.
+1. The pom.xml will load all the dependencies that is required to run this project.
 We can run these tests using simple commands from the Terminal
 ```
 mvn clean
@@ -45,7 +45,7 @@ mvn compile
 mvn test
 mvn clean test
 ```
-mvn test should run the tests locally in the browser and generate **_test reports_** in `target/surefire-reports`
+2. Test reports are created using maven-surefire-plugin. mvn test should run the tests locally in the browser and generate **_test reports_** in `target/surefire-reports`
 
 ##Steps to run using TestNG
 

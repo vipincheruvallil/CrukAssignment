@@ -35,12 +35,7 @@ public class DonationPage {
     }
 
     public WebElement getMotivation() {
-        WebElement dropDown = driver.findElement(By.xpath("//select[@name='motivation']"));
-        return dropDown;
-    }
-
-    public WebElement getDonationFund(String donationType) {
-        return driver.findElement(By.xpath("//span[text()=" + donationType + "]"));
+        return driver.findElement(By.xpath("//select[@name='motivation']"));
     }
 
     public void setCancerType(String type) {
