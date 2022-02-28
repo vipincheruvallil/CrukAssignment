@@ -47,7 +47,8 @@ mvn clean test
 ```
 mvn test should run the tests locally in the browser and generate **_test reports_** in `target/surefire-reports`
 
-###Steps to run using TestNG
+##Steps to run using TestNG
+
 The above step is your one-stop shop for running the WebDriver tests. But we can also run the 
 tests using **testng.xml** . All that would be required is Right click and run as testng.xml.
 Please note that running the scripts using maven only generate reports.
